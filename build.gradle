@@ -13,7 +13,7 @@ def ROBOT_CLASS = "frc.team5431.robot.Robot"
 deploy {
     targets {
         target("roborio", jaci.openrio.gradle.frc.RoboRIO) {
-            team = TEAM
+            team = 5431
         }
     }
     artifacts {
